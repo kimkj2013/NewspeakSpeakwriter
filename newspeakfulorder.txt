@@ -1,0 +1,34 @@
+Newspeakfulorder!!!
+
+BB maked doubleplusgood newspeakfulnamewrds:
+* good: pointer ++
+* ungood: pointer --
+* plus: mul 2
+* doubleplus: mul 4
+* goodthink: value ++
+* crimethink: value --
+* BB watch (name): print
+* (name) speakwrite Times: scan
+* (name) luv BB: 
+* (name) unluv BB: 
+
+BB maked newspeakfulorder
+Namewrds (oldspeak: terminals) is:
+  {id, is, good, ungood, plusgood, doubleplusgood, plusungood, doubleplusungood, goodthink, crimethink, BB watch, speakwrite Times}
+S -> S' S
+S -> S''
+S' -> id V {, V}
+S' -> BB watch id
+S' -> id speakwrite Times
+S'' -> id S'''
+S''' -> G''luv BB
+V -> is G
+V -> V'think
+V' -> G'crime
+V' -> G'good
+G -> G'G''good
+G' -> G'''plus
+G''' -> double
+G''' -> lambda
+G'' -> un
+G'' -> lambda
